@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiFillLinkedin,AiFillGithub,AiOutlineMail,AiFillTwitterSquare, AiFillFacebook,} from 'react-icons/ai'
+import {AiFillLinkedin,AiFillGithub} from 'react-icons/ai'
 import {RiTelegramLine } from "react-icons/ri";
 const Home = () => {
   return (

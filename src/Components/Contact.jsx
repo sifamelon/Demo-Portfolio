@@ -43,15 +43,16 @@ const Contact = () => {
                     <div className='p-4'>
                         <form action="post">
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
-                                <div className='flex flex-col'>
+                                
+                            </div>
+                            <div className='flex flex-col'>
                                     <label htmlFor="">Name</label>
                                     <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" required />
                                 </div>
                                 <div className='flex flex-col '>
                                     <label htmlFor="">Phone Number</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="tel" pattern='[0-9]' />
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" pattern='[0-9]' />
                                 </div>
-                            </div>
                             <div className='flex flex-col py-2'>
                                     <label htmlFor="">Email</label>
                                     <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" required />
